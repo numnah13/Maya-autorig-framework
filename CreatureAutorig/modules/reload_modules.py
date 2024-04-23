@@ -5,12 +5,8 @@ Created on 24. 12. 2023
 '''
 import importlib
 
-from modules import main_module
-from modules import limb_module
-from modules.submodules import control
-from modules.submodules import joint_chain
-from modules.submodules import ik_chain
-from modules.submodules import fk_chain
+from modules import main_module, limb_module
+from modules.submodules import control, joint_chain, ik_chain, fk_chain
 from modules.test_modules import test_control, test_joint_chain
 
 

@@ -10,6 +10,7 @@ from utils import name_utils
 from utils import meta_utils
 from utils import hierarchy_utils
 from utils import attr_utils
+from utils.test_utils import test_attr_utils
 
 
 def reload_it():
@@ -19,5 +20,6 @@ def reload_it():
     importlib.reload(plug_utils)
     importlib.reload(meta_utils)
     importlib.reload(attr_utils)
+    importlib.reload(test_attr_utils)
 
     print ("Utils reload: OK")
